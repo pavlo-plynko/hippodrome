@@ -59,9 +59,10 @@ public class HorseTest {
     }
 
 
-/*        @Test
+/*    @Test
     public void HorseMove_GetRandomDouble_method(){
         MockedStatic<Horse> fakeHorse = Mockito.mockStatic(Horse.class);
+        Mockito.when(fakeHorse.)
         Mockito.doReturn(0.5).when(fakeHorse).g
         fakeHorse.when(Horse::getRandomDouble).
 
