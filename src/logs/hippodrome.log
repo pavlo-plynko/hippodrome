@@ -1,0 +1,15 @@
+2022-06-23 10:14:59.518 [INFO ] [main] Main - Start of the race. Number of participants 7
+2022-06-23 10:14:59.951 [INFO ] [main] Main - Finish of the race. Winner: Lobster
+2022-06-23 10:17:09.001 INFO  Main - Start of the race. Number of participants 7
+2022-06-23 10:17:09.430 INFO  Main - Finish of the race. Winner: Pegas
+2022-06-23 10:17:35.908 INFO  Main: Start of the race. Number of participants 7
+2022-06-23 10:17:36.335 INFO  Main: Finish of the race. Winner: Pegas
+2022-06-23 10:18:48,810 ERROR Horse: Horses list is empty
+2022-06-23 10:18:48,816 ERROR Horse: Horses list is null
+2022-06-23 10:18:49,768 ERROR Horse: Name is blank
+2022-06-23 10:18:49,782 ERROR Horse: Name is blank
+2022-06-23 10:18:49,784 ERROR Horse: Name is blank
+2022-06-23 10:18:49,786 ERROR Horse: Name is blank
+2022-06-23 10:18:49,788 ERROR Horse: Distance is negative
+2022-06-23 10:18:49,791 ERROR Horse: Name is null
+2022-06-23 10:18:49,934 ERROR Horse: Speed is negative
