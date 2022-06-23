@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import static java.util.List.of;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.times;
 
 public class HipodromeTest {
@@ -15,7 +16,7 @@ public class HipodromeTest {
         IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
             new Hippodrome(null);
         });
-        Assertions.assertEquals("Horses cannot be null.", exception.getMessage());
+        assertEquals("Horses cannot be null.", exception.getMessage());
     }
 
     @Test
@@ -24,7 +25,7 @@ public class HipodromeTest {
         IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
             new Hippodrome(horses);
         });
-        Assertions.assertEquals("Horses cannot be empty.", exception.getMessage());
+        assertEquals("Horses cannot be empty.", exception.getMessage());
     }
 
     @Test
@@ -34,7 +35,7 @@ public class HipodromeTest {
             horses.add(new Horse("ID"+i,i));
         }
         Hippodrome hippodrome = new Hippodrome(horses);
-        Assertions.assertEquals(horses,hippodrome.getHorses());
+        assertEquals(horses,hippodrome.getHorses());
     }
 
     @Test
@@ -43,17 +44,15 @@ public class HipodromeTest {
         for (int i = 0; i < 5; i++) {
             horses.add(new Horse("ID"+i,i,i));
         }
-        Assertions.assertEquals(horses.get(4),horses.stream()
-                .max(Comparator.comparing(Horse::getDistance))
-                .get());
+        assertEquals(horses.get(4),new Hippodrome(horses).getWinner());
     }
 
-    @Test
+/*    @Test
     public void Hippodrome_HorseMoveTesting(){
         List<Horse> horses = Mockito.spy(new ArrayList<>());
-        for (int i = 0; i < 49; i++) {
+        for (int i = 0; i < 50; i++) {
             horses.add(new Horse("ID"+i,i,i));
         }
-        Mockito.verify(Mockito.spy(new Hippodrome(horses)),times(50)).move();
-    }
+        Mockito.verify(Mockito.spy(new Hippodrome(horses)).getHorses().forEach(Horse::move),times(50))
+    }*/
 }
