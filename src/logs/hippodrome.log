@@ -13,3 +13,34 @@
 2022-06-23 10:18:49,788 ERROR Horse: Distance is negative
 2022-06-23 10:18:49,791 ERROR Horse: Name is null
 2022-06-23 10:18:49,934 ERROR Horse: Speed is negative
+2022-06-23 10:21:04,685 ERROR Horse: Horses list is empty
+2022-06-23 10:21:04,692 ERROR Horse: Horses list is null
+2022-06-23 10:21:05,554 ERROR Horse: Name is blank
+2022-06-23 10:21:05,561 ERROR Horse: Name is blank
+2022-06-23 10:21:05,563 ERROR Horse: Name is blank
+2022-06-23 10:21:05,565 ERROR Horse: Name is blank
+2022-06-23 10:21:05,567 ERROR Horse: Distance is negative
+2022-06-23 10:21:05,569 ERROR Horse: Name is null
+2022-06-23 10:21:05,718 ERROR Horse: Speed is negative
+2022-06-23 10:21:17,557 ERROR Horse: Horses list is empty
+2022-06-23 10:21:17,562 ERROR Horse: Horses list is null
+2022-06-23 10:21:18,469 ERROR Horse: Name is blank
+2022-06-23 10:21:18,476 ERROR Horse: Name is blank
+2022-06-23 10:21:18,478 ERROR Horse: Name is blank
+2022-06-23 10:21:18,480 ERROR Horse: Name is blank
+2022-06-23 10:21:18,482 ERROR Horse: Distance is negative
+2022-06-23 10:21:18,484 ERROR Horse: Name is null
+2022-06-23 10:21:18,627 ERROR Horse: Speed is negative
+2022-06-23 10:21:26,405 INFO  Main: Start of the race. Number of participants 7
+2022-06-23 10:21:46,850 INFO  Main: Finish of the race. Winner: Masea
+2022-06-23 10:22:13,456 INFO  Main: Start of the race. Number of participants 7
+2022-06-23 10:22:33,874 INFO  Main: Finish of the race. Winner: Masea
+2022-06-23 10:45:59,264 ERROR Horse: Horses list is empty
+2022-06-23 10:45:59,268 ERROR Horse: Horses list is null
+2022-06-23 10:46:00,822 ERROR Horse: Name is blank
+2022-06-23 10:46:00,841 ERROR Horse: Name is blank
+2022-06-23 10:46:00,846 ERROR Horse: Name is blank
+2022-06-23 10:46:00,854 ERROR Horse: Name is blank
+2022-06-23 10:46:00,860 ERROR Horse: Distance is negative
+2022-06-23 10:46:00,864 ERROR Horse: Name is null
+2022-06-23 10:46:00,987 ERROR Horse: Speed is negative

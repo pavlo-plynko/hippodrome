@@ -1,11 +1,13 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 import static java.util.List.of;
+import static org.mockito.Mockito.times;
 
 public class HipodromeTest {
     @Test
@@ -44,5 +46,14 @@ public class HipodromeTest {
         Assertions.assertEquals(horses.get(4),horses.stream()
                 .max(Comparator.comparing(Horse::getDistance))
                 .get());
+    }
+
+    @Test
+    public void Hippodrome_HorseMoveTesting(){
+        List<Horse> horses = Mockito.spy(new ArrayList<>());
+        for (int i = 0; i < 49; i++) {
+            horses.add(new Horse("ID"+i,i,i));
+        }
+        Mockito.verify(Mockito.spy(new Hippodrome(horses)),times(50)).move();
     }
 }
