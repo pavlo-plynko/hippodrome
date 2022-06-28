@@ -1,81 +1,101 @@
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.mockito.Mock;
 import org.mockito.MockedStatic;
-import org.mockito.Mockito;
-import org.mockito.junit.jupiter.MockitoExtension;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.lang.reflect.Field;
 
-@ExtendWith(MockitoExtension.class)
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mockStatic;
+
 public class HorseTest {
 
     @Test
-    public void HorseNameNotNullInConstructor() {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
-            new Horse(null,1,1);
-        });
-        assertEquals("Name cannot be null.", exception.getMessage());
+    public void nullNameExceptions(){
+        assertThrows(IllegalArgumentException.class, () -> new Horse(null,1,1));
     }
+
+    @Test
+    public void nullNameMessage(){
+        try{
+            new Horse(null,1,1);
+            fail();
+        }
+        catch (IllegalArgumentException e)
+        {
+            assertEquals("Name cannot be null.", e.getMessage());
+        }
+    }
+
     @ParameterizedTest
     @ValueSource(strings = {"", " ","\t", "\n"})
-    public void HorseNameNotEmptyInConstructor() {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
-            new Horse("",1,1);
+    public void horseName_NotEmpty_In_Constructor(String values) {
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
+            new Horse(values,1,1);
         });
         assertEquals("Name cannot be blank.", exception.getMessage());
     }
+
     @Test
     public void HorseSpeedNotNegativeInConstructor() {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
             new Horse("Vasea",-1,1);
         });
         assertEquals("Speed cannot be negative.", exception.getMessage());
     }
+
     @Test
-    public void HorseDistanceNotNegativeInConstructor() {
-        IllegalArgumentException exception = Assertions.assertThrows(IllegalArgumentException.class, () -> {
+    public void horseDistanceNotNegativeInConstructor() {
+        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
             new Horse("Vasea",4,-1);
         });
         assertEquals("Distance cannot be negative.", exception.getMessage());
     }
+
     @Test
-    public void HorseGetName() {
+    public void horseGetName() throws IllegalAccessException, NoSuchFieldException {
         Horse horse = new Horse("Bercut",4, 6);
-        assertEquals("Bercut", horse.getName());
+        Field name = Horse.class.getDeclaredField("name");
+        name.setAccessible(true);
+        String nameValue = (String) name.get(horse);
+        assertEquals("Bercut", nameValue);
     }
+
     @Test
-    public void HorseGetSpeed() {
-        Horse horse = new Horse("Bercut",4, 6);
-        assertEquals(4, horse.getSpeed());
+    public void horseGetSpeed() {
+        double expectedSpeed = 4;
+        Horse horse = new Horse("Bercut",expectedSpeed, 6);
+        assertEquals(expectedSpeed, horse.getSpeed());
     }
+
     @Test
-    public void HorseGetDistance() {
+    public void horseGetDistance() {
         Horse horse1 = new Horse("Bercut",4, 6);
         assertEquals(6, horse1.getDistance());
         Horse horse2 = new Horse("Bercut",4);
         assertEquals(0, horse2.getDistance());
     }
 
+    @Test
+    public void horseMove_GetRandomDouble_method(){
+        try(MockedStatic<Horse> fakeHorse = mockStatic(Horse.class)){
+            new Horse("Becaz",1,1).move();
 
-    @ParameterizedTest
-    @ValueSource(doubles = {7.0,9.0,13.0})
-    public void HorseMove_GetRandomDouble_method(double value){
-        double speedHorse = 10;
-        double distanceHorse = 5;
-        try(MockedStatic<Horse> fakeHorse = Mockito.mockStatic(Horse.class)){
-            fakeHorse.when(()->Horse.getRandomDouble(0.2,0.9)).thenReturn(value);
-            Horse testHorse = new Horse("Becaz",speedHorse,distanceHorse);
-            testHorse.move();
-            distanceHorse += speedHorse*value;
-            assertEquals(distanceHorse,testHorse.getDistance());
+            fakeHorse.verify(()->Horse.getRandomDouble(0.2,0.9));
         }
-
-        //Mockito.doAnswer(x-> Horse.getRandomDouble(0.2, 0.9)).when(fakeHorse).move();
     }
 
+    @ParameterizedTest
+    @ValueSource(doubles = {0.1,0.2,0.6,0.9,20})
+    public void horseMove_GetDistance_By_Formula(double random){
+        try(MockedStatic<Horse> fakeHorse = mockStatic(Horse.class)){
+            Horse horse = new Horse("Garik",31,283);
+            fakeHorse.when(() -> Horse.getRandomDouble(0.2,0.9)).thenReturn(random);
+
+            horse.move();
+
+            assertEquals(283+31*random,horse.getDistance());
+        }
+    }
 
 }
