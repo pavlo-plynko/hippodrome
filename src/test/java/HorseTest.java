@@ -94,4 +94,25 @@ import static org.junit.jupiter.api.Assertions.*;
             assertEquals(expectedMessage, exception.getMessage());
         }
     }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"Буцефал"})
+     void checkArgumentName(String actual) {
+        String expectedValue = "Буцефал";
+        assertEquals(expectedValue, actual);
+    }
+
+     @ParameterizedTest
+     @ValueSource(doubles = {2.4})
+     void checkArgumentSpeed(double actual) {
+         double expectedValue = 2.4;
+         assertEquals(expectedValue, actual);
+     }
+
+     @ParameterizedTest
+     @ValueSource(doubles = {0})
+     void checkArgumentDistance(double actual) {
+         double expectedValue = 0;
+         assertEquals(expectedValue, actual);
+     }
 }
