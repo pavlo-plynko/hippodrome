@@ -1,9 +1,19 @@
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
+
 import org.junit.jupiter.params.provider.ValueSource;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.ArgumentMatchers.any;
 
+@ExtendWith(MockitoExtension.class)
  class HorseTest {
 
     @Test
@@ -115,4 +125,23 @@ import static org.junit.jupiter.api.Assertions.*;
          double expectedValue = 0;
          assertEquals(expectedValue, actual);
      }
+
+     @Mock
+     List<Horse> horseList;
+
+    @Test
+    void checkListSize() {
+        horseList = Mockito.mock(ArrayList.class);
+        Mockito.doReturn(7).when(horseList).size();
+        assertEquals(7, horseList.size());
+    }
+
+    @Test
+    void checkArgumentHorseList() {
+        String expectedName = "Зефир";
+        Mockito.doReturn(expectedName).when(horseList).get(any(int.class));
+        assertEquals(expectedName, horseList.get(2));
+
+    }
+
 }
