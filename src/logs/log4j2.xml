@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{DEFAULT} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <!-- Rolling File Appender -->
+        <RollingFile
+                name="rollingFile"
+                fileName="${LOG_DIR}/application.log"
+                filePattern="${LOG_DIR}/application.%d{dd-MMM}.log.gz"
+                ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+
+            <DefaultRolloverStrategy>
+                <Delete basePath="" maxDepth="7">
+                    <IfFileName glob="app_log*.log">
+                        <IfAny>
+                            <IfAccumulatedFileSize exceeds="5 KB" />
+                            <IfAccumulatedFileCount exceeds="4" />
+                        </IfAny>
+                    </IfFileName>
+                </Delete>
+            </DefaultRolloverStrategy>
+
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="com.app.utilities" level="info" additivity="true">
+            <AppenderRef ref="File" />
+        </Logger>
+
+        <Root level="debug">
+            <AppenderRef ref="Console" />
+        </Root>
+
+    </Loggers>
+</Configuration>

@@ -17,10 +17,8 @@ import static org.mockito.ArgumentMatchers.any;
  class HorseTest {
 
     @Test
-    void checkIllegalArgumentException() {
-        Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
-            throw new IllegalArgumentException();
-        });
+    void checkNullArgumentHorse() {
+        assertThrows(IllegalArgumentException.class, () -> new Horse(null, 0));
     }
 
     @Test
@@ -132,15 +130,19 @@ import static org.mockito.ArgumentMatchers.any;
     @Test
     void checkListSize() {
         horseList = Mockito.mock(ArrayList.class);
-        Mockito.doReturn(7).when(horseList).size();
-        assertEquals(7, horseList.size());
+        int expectedSize = 7;
+
+        Mockito.doReturn(expectedSize).when(horseList).size();
+        assertEquals(expectedSize, horseList.size());
     }
 
     @Test
-    void checkArgumentHorseList() {
+    void checkArgumentNameHorseList() {
         String expectedName = "Зефир";
+        int expectedIndex = 2;
+
         Mockito.doReturn(expectedName).when(horseList).get(any(int.class));
-        assertEquals(expectedName, horseList.get(2));
+        assertEquals(expectedName, horseList.get(expectedIndex));
 
     }
 
