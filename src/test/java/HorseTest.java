@@ -41,7 +41,6 @@ class HorseTest {
         }
 
         assertEquals(NULL_NAME_ERROR_MESSAGE, errorMsg);
-
     }
 
     @ParameterizedTest
@@ -134,6 +133,7 @@ class HorseTest {
     void getRandomDoubleWorksAsExpected(){
         try(MockedStatic<Horse> horseMockedStatic = Mockito.mockStatic(Horse.class);) {
             Horse testHorse = new Horse(NORMAL_NAME, POSITIVE_SPEED, POSITIVE_DISTANCE);
+
             testHorse.move();
 
             horseMockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
@@ -147,10 +147,10 @@ class HorseTest {
             Horse testHorse = new Horse(NORMAL_NAME, POSITIVE_SPEED, POSITIVE_DISTANCE);
             double expectedRandomDouble = 0.5;
             double expectedDistanceAfterMove = testHorse.getDistance() + testHorse.getSpeed() * expectedRandomDouble;
-
             horseMockedStatic
                     .when(() -> Horse.getRandomDouble(0.2, 0.9))
                     .thenReturn(expectedRandomDouble);
+
             testHorse.move();
 
             assertEquals(expectedDistanceAfterMove, testHorse.getDistance());
