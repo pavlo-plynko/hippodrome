@@ -1,0 +1,25 @@
+<configuration status="warn">
+    <appenders>
+        <console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %p %c : %m%n"/>
+        </console>
+        <rollingFile name="rollingFile" fileName="logs/hippodrome.log" filePattern="logs/hippodrome.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %p %c : %m%n"/>
+            <policies>
+                <TimeBasedTriggeringPolicy />
+            </policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="logs" maxDepth="2">
+                    <IfFileName glob="hippodrome.*.log"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </rollingFile>
+    </appenders>
+    <loggers>
+        <root level="debug">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="rollingFile"/>
+        </root>
+    </loggers>
+</configuration>
