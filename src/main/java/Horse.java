@@ -29,7 +29,7 @@ public class Horse {
     }
 
     public String getName() {
-        return name;
+        return name ;
     }
 
     public double getSpeed() {
