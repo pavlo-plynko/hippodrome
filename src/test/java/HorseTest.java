@@ -51,6 +51,7 @@ class HorseTest {
         assertEquals(3.1, horse.getSpeed());
         assertEquals(3.0, horse.getDistance());
     }
+
     @Test
     void IfTwoParametersInConstructorGetZero() {
         Horse horse = new Horse("Мурка", 0.2);
@@ -58,11 +59,14 @@ class HorseTest {
     }
 
 
-    @Test
-    void getRandomDouble() {
-        try (MockedStatic<Horse> mockedStatic = Mockito.mockStatic(Horse.class)) {
-            new Horse("Санчо", 4.2, 10).move();
-            mockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+    @ParameterizedTest
+    @ValueSource(doubles = {1.2, 2.9})
+    void getRandomDouble(double random) {
+        try (MockedStatic<Horse> horseMockedStatic = Mockito.mockStatic(Horse.class)) {
+            horseMockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(random);
+            Horse horse = new Horse("Санчо", 3.2, 8);
+            horse.move();
+            assertEquals(8 + horse.getSpeed() * random, horse.getDistance());
         }
     }
 }
