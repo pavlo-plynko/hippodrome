@@ -1,0 +1,38 @@
+2023-05-27 19:53:03.655 DEBUG Horse: Создание Horse, имя [Мурка], скорость [0.2]
+2023-05-27 19:53:03.725 ERROR Horse: Name is null
+2023-05-27 19:53:03.745 ERROR Horse: Distance is negative
+2023-05-27 19:53:03.748 ERROR Horse: Distance is negative
+2023-05-27 19:53:03.751 ERROR Horse: Distance is negative
+2023-05-27 19:53:03.757 ERROR Horse: Speed is negative
+2023-05-27 19:53:03.760 ERROR Horse: Speed is negative
+2023-05-27 19:53:03.763 ERROR Horse: Speed is negative
+2023-05-27 19:53:05.084 DEBUG Horse: Создание Horse, имя [Санчо], скорость [3.2]
+2023-05-27 19:53:05.097 DEBUG Horse: Создание Horse, имя [Санчо], скорость [3.2]
+2023-05-27 19:53:05.106 ERROR Horse: Name is blank
+2023-05-27 19:53:05.110 DEBUG Horse: Создание Horse, имя [Lion], скорость [3.1]
+2023-05-27 19:53:05.127 ERROR Hippodrome: List is empty
+2023-05-27 19:53:05.132 ERROR Hippodrome: List is null
+2023-05-27 19:53:05.230 DEBUG Hippodrome: Создание Hippodrome, лошадей [50]
+2023-05-27 19:53:05.273 DEBUG Horse: Создание Horse, имя [Jim], скорость [5.1]
+2023-05-27 19:53:05.274 DEBUG Horse: Создание Horse, имя [Angela], скорость [2.3]
+2023-05-27 19:53:05.274 DEBUG Horse: Создание Horse, имя [Michael], скорость [9.9]
+2023-05-27 19:53:05.274 DEBUG Hippodrome: Создание Hippodrome, лошадей [3]
+2023-05-27 19:55:12.769 DEBUG Horse: Создание Horse, имя [Мурка], скорость [0.2]
+2023-05-27 19:55:12.831 ERROR Horse: Name is null
+2023-05-27 19:55:12.851 ERROR Horse: Distance is negative
+2023-05-27 19:55:12.854 ERROR Horse: Distance is negative
+2023-05-27 19:55:12.858 ERROR Horse: Distance is negative
+2023-05-27 19:55:12.863 ERROR Horse: Speed is negative
+2023-05-27 19:55:12.867 ERROR Horse: Speed is negative
+2023-05-27 19:55:12.871 ERROR Horse: Speed is negative
+2023-05-27 19:55:14.116 DEBUG Horse: Создание Horse, имя [Санчо], скорость [3.2]
+2023-05-27 19:55:14.137 DEBUG Horse: Создание Horse, имя [Санчо], скорость [3.2]
+2023-05-27 19:55:14.150 ERROR Horse: Name is blank
+2023-05-27 19:55:14.155 DEBUG Horse: Создание Horse, имя [Lion], скорость [3.1]
+2023-05-27 19:55:14.182 ERROR Hippodrome: List is empty
+2023-05-27 19:55:14.188 ERROR Hippodrome: List is null
+2023-05-27 19:55:14.289 DEBUG Hippodrome: Создание Hippodrome, лошадей [50]
+2023-05-27 19:55:14.338 DEBUG Horse: Создание Horse, имя [Jim], скорость [5.1]
+2023-05-27 19:55:14.339 DEBUG Horse: Создание Horse, имя [Angela], скорость [2.3]
+2023-05-27 19:55:14.339 DEBUG Horse: Создание Horse, имя [Michael], скорость [9.9]
+2023-05-27 19:55:14.339 DEBUG Hippodrome: Создание Hippodrome, лошадей [3]
