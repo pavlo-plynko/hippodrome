@@ -13,7 +13,7 @@
             </Policies>
             <DefaultRolloverStrategy>
                 <Delete basePath="logs" maxDepth="1">
-                    <IfFileName globe="hippodrome.*.log"/>
+                    <IfFileName glob="hippodrome.*.log"/>
                     <IfLastModified age="7d"/>
                 </Delete>
             </DefaultRolloverStrategy>

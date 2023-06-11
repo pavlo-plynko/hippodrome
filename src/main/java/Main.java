@@ -1,10 +1,7 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-
 
 public class Main {
     public static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
@@ -25,7 +22,7 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             hippodrome.move();
             watch(hippodrome);
-            TimeUnit.MILLISECONDS.sleep(20);
+            TimeUnit.MILLISECONDS.sleep(200);
         }
 
         String winnerName = hippodrome.getWinner().getName();
