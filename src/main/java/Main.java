@@ -1,20 +1,29 @@
+
+import org.slf4j.LoggerFactory;
+
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+
 
 public class Main {
 
+  //  private static final Logger logger = (Logger) LoggerFactory.getLogger(Main.class);
+  private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) throws Exception {
         List<Horse> horses = List.of(
-                new Horse("Буцефал", 2.4),
-                new Horse("Туз Пик", 2.5),
-                new Horse("Зефир", 2.6),
-                new Horse("Пожар", 2.7),
-                new Horse("Лобстер", 2.8),
-                new Horse("Пегас", 2.9),
-                new Horse("Вишня", 3)
+                new Horse("Bucephalus", 2.4),
+                new Horse("Ace of Spades", 2.5),
+                new Horse("Zephyr", 2.6),
+                new Horse("Blaze", 2.7),
+                new Horse("Lobster", 2.8),
+                new Horse("Pegasus", 2.9),
+                new Horse("Cherry", 3)
         );
         Hippodrome hippodrome = new Hippodrome(horses);
-
+        logger.info("Начало скачек. Количество участников: {}", horses.size() );
         for (int i = 0; i < 100; i++) {
             hippodrome.move();
             watch(hippodrome);
@@ -22,7 +31,8 @@ public class Main {
         }
 
         String winnerName = hippodrome.getWinner().getName();
-        System.out.println("Победил " + winnerName + "!");
+        logger.info(" Окончание скачек. Победитель: " + winnerName);
+        System.out.println(winnerName + " wins!");
     }
 
     private static void watch(Hippodrome hippodrome) throws Exception {
