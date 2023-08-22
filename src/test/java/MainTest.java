@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Timeout;
 
 import java.io.*;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
