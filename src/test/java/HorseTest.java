@@ -7,15 +7,15 @@ import org.mockito.MockedStatic;
 
 import java.util.stream.Stream;
 
+import static common.HorseParams.DEFAULT_DISTANCE;
+import static common.HorseParams.DEFAULT_NAME;
+import static common.HorseParams.DEFAULT_SPEED;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 
 class HorseTest {
-    static final int DEFAULT_SPEED = 100;
-    static final int DEFAULT_DISTANCE = 5;
-    static final String DEFAULT_NAME = "MILA";
     private static final String NAME_CANNOT_BE_BLANK_EXC_MSG = "Name cannot be blank.";
 
     static Stream<Arguments> constructorParamsWithExceptionProvider() {

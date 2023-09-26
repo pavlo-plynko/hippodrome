@@ -9,6 +9,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Stream;
 
+import static common.HorseParams.DEFAULT_DISTANCE;
+import static common.HorseParams.DEFAULT_NAME;
+import static common.HorseParams.DEFAULT_SPEED;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mock;
@@ -59,16 +62,16 @@ class HippodromeTest {
     void testShouldReturnHorseWithTheBiggestDistance() {
         List<Horse> horses = getHorsesList();
         Hippodrome hippodrome = new Hippodrome(horses);
-        assertEquals(HorseTest.DEFAULT_DISTANCE+ MAX_HORSES_LIMIT - 1, hippodrome.getWinner().getDistance());
+        assertEquals(DEFAULT_DISTANCE + MAX_HORSES_LIMIT - 1, hippodrome.getWinner().getDistance());
     }
 
 
     private static List<Horse> getHorsesList() {
         List<Horse> horses =  new LinkedList<>();
         for (int i = 0; i < MAX_HORSES_LIMIT; i++) {
-            horses.add(new Horse(HorseTest.DEFAULT_NAME + i,
-                                 HorseTest.DEFAULT_SPEED + i,
-                                 HorseTest.DEFAULT_DISTANCE + i ));
+            horses.add(new Horse(DEFAULT_NAME + i,
+                                 DEFAULT_SPEED + i,
+                                 DEFAULT_DISTANCE + i ));
         }
         return horses;
     }
