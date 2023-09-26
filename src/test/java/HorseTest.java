@@ -13,9 +13,9 @@ import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
 
 class HorseTest {
-    private static final int DEFAULT_SPEED = 100;
-    private static final int DEFAULT_DISTANCE = 5;
-    private static final String DEFAULT_NAME = "MILA";
+    static final int DEFAULT_SPEED = 100;
+    static final int DEFAULT_DISTANCE = 5;
+    static final String DEFAULT_NAME = "MILA";
     private static final String NAME_CANNOT_BE_BLANK_EXC_MSG = "Name cannot be blank.";
 
     static Stream<Arguments> constructorParamsWithExceptionProvider() {
