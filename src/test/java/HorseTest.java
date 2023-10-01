@@ -1,12 +1,3 @@
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.mockito.MockedStatic;
-
-import java.util.stream.Stream;
-
 import static common.HorseParams.DEFAULT_DISTANCE;
 import static common.HorseParams.DEFAULT_NAME;
 import static common.HorseParams.DEFAULT_SPEED;
@@ -14,6 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.when;
+
+import java.util.stream.Stream;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.mockito.MockedStatic;
 
 class HorseTest {
     private static final String NAME_CANNOT_BE_BLANK_EXC_MSG = "Name cannot be blank.";

@@ -1,34 +1,41 @@
+import static java.lang.String.format;
+import static java.util.Objects.isNull;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import lombok.extern.slf4j.Slf4j;
 
-import static java.util.Objects.isNull;
 
+@Slf4j
 public class Hippodrome {
 
-    private final List<Horse> horses;
+	private final List<Horse> horses;
 
-    public Hippodrome(List<Horse> horses) {
-        if (isNull(horses)) {
-            throw new IllegalArgumentException("Horses cannot be null.");
-        } else if (horses.isEmpty()) {
-            throw new IllegalArgumentException("Horses cannot be empty.");
-        }
+	public Hippodrome(List<Horse> horses) {
+		if (isNull(horses)) {
+			log.error("Horses list is null");
+			throw new IllegalArgumentException("Horses cannot be null.");
+		} else if (horses.isEmpty()) {
+			log.error("Horses list is empty");
+			throw new IllegalArgumentException("Horses cannot be empty.");
+		}
 
-        this.horses = horses;
-    }
+		this.horses = horses;
+		log.debug(format("Создание Hippodrome, лошадей [%s]", horses.size()));
+	}
 
-    public List<Horse> getHorses() {
-        return Collections.unmodifiableList(horses);
-    }
+	public List<Horse> getHorses() {
+		return Collections.unmodifiableList(horses);
+	}
 
-    public void move() {
-        horses.forEach(Horse::move);
-    }
+	public void move() {
+		horses.forEach(Horse::move);
+	}
 
-    public Horse getWinner() {
-        return horses.stream()
-                .max(Comparator.comparing(Horse::getDistance))
-                .get();
-    }
+	public Horse getWinner() {
+		return horses.stream()
+				.max(Comparator.comparing(Horse::getDistance))
+				.get();
+	}
 }
