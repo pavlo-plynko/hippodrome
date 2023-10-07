@@ -3,12 +3,16 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import org.mockito.MockedStatic;
+import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
+import org.powermock.core.classloader.annotations.PrepareForTest;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 
  @RunWith(MockitoJUnitRunner.class)
+ @PrepareForTest
 public class HorseTest {
     public static final String MESSAGE_SECOND_ARGUMENT_NEGATIVE="Speed cannot be negative.";
     public static final String MESSAGE_THIRD_ARGUMENT_NEGATIVE="Distance cannot be negative.";
@@ -71,5 +75,46 @@ public class HorseTest {
             new Horse("dsa", 5, -2);
         }, MESSAGE_THIRD_ARGUMENT_NEGATIVE);
     }
+    @Test
+     public void getHorseName() {
+        when(horse.getName()).thenReturn("Vasia");
+        assertEquals(horse.getName(), "Vasia");
+    }
+     @Test
+     public void getHorseSpeed() {
+         when(horse.getSpeed()).thenReturn(50.0);
+         assertEquals(horse.getSpeed(), 50);
+     }
+     @Test
+     public void getHorseDistance() {
+        when(horse.getDistance()).thenReturn(200.0);
+         assertEquals(horse.getDistance(), 200);
+     }
+     @Test
+     public void distanceWhenHorseWithTwoArgs() {
+         when(horse.getDistance()).thenReturn(0.0);
+         assertEquals(horse.getDistance(), 0);
+     }
+     //  assertEquals(Horse.getRandomDouble(0.5, 0.5), 0.5);
+     @Test
+     public void verifyGetRandomDouble() {
+        try(MockedStatic<Horse> mockedStatic= Mockito.mockStatic(Horse.class)) {
+            mockedStatic.when(()->Horse.getRandomDouble(0.2,0.9)).thenReturn(0.5);
+            new Horse("sd", 20, 200).move();
+              mockedStatic.verify(() -> Horse.getRandomDouble(0.2, 0.9));
 
-}
+        }
+     }
+     @Test
+     public void verifyDistance() {
+         try(MockedStatic<Horse> mockedStatic= Mockito.mockStatic(Horse.class)) {
+             mockedStatic.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(0.5);
+
+             Horse h = new Horse("sd", 20, 100);
+             assertEquals( h.getDistance() * h.getSpeed()*Horse.getRandomDouble(0.2,0.9), 20*100*0.5);
+         }
+     }
+
+
+
+ }
