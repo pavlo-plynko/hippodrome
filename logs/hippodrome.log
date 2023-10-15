@@ -1,9 +1,10 @@
-00:26:09.430 [main] DEBUG Horse - створення Horse, ім'я [Bucephalus], швидкість [2.4]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Ace of Spades], швидкість [2.5]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Zephyr], швидкість [2.6]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Blaze], швидкість [2.7]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Lobster], швидкість [2.8]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Pegasus], швидкість [2.9]
-00:26:09.434 [main] DEBUG Horse - створення Horse, ім'я [Cherry], швидкість [3.0]
-00:26:09.435 [main] DEBUG Hippodrome - створення Hippodrome, коней [7]
-00:26:09.435 [main] INFO  Main - Початок стрибків. Кількість учасників: 7
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Bucephalus], швидкість [2.4]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Ace of Spades], швидкість [2.5]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Zephyr], швидкість [2.6]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Blaze], швидкість [2.7]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Lobster], швидкість [2.8]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Pegasus], швидкість [2.9]
+2023-10-15 19:11:02 [main] DEBUG Horse - створення Horse, ім'я [Cherry], швидкість [3.0]
+2023-10-15 19:11:02 [main] DEBUG Hippodrome - створення Hippodrome, коней [7]
+2023-10-15 19:11:02 [main] INFO  Main - Початок стрибків. Кількість учасників: 7
+2023-10-15 19:11:23 [main] INFO  Main - Закінчення стрибків. Переможець: Cherry
