@@ -1,7 +1,13 @@
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Main {
+    private static final Logger logger=LoggerFactory.getLogger(Main.class);
+    public static final String START_JUMPING="Початок стрибків. Кількість учасників: ";
+    public static final String END_JUMPING="Закінчення стрибків. Переможець: ";
 
     public static void main(String[] args) throws Exception {
         List<Horse> horses = List.of(
@@ -14,15 +20,14 @@ public class Main {
                 new Horse("Cherry", 3)
         );
         Hippodrome hippodrome = new Hippodrome(horses);
+        logger.info(START_JUMPING+horses.size());
 
         for (int i = 0; i < 100; i++) {
             hippodrome.move();
             watch(hippodrome);
             TimeUnit.MILLISECONDS.sleep(200);
         }
-
-        String winnerName = hippodrome.getWinner().getName();
-        System.out.println(winnerName + " wins!");
+        logger.info(END_JUMPING + hippodrome.getWinner().getName());
     }
 
     private static void watch(Hippodrome hippodrome) throws Exception {

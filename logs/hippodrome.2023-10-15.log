@@ -1,0 +1,4 @@
+2023-10-15 16:13:58,224 ERROR Hippodrome [main] Horses list is null
+2023-10-15 23:35:33,300 DEBUG Hippodrome [main] створення Hippodrome, коней [7]
+2023-10-15 23:35:33,306 INFO Main [main] Початок стрибків. Кількість учасників: 7
+2023-10-15 23:35:53,674 INFO Main [main] Закінчення стрибків. Переможець: Cherry

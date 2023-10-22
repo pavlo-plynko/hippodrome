@@ -1,6 +1,4 @@
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
@@ -14,9 +12,6 @@ import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class HippodromeTest {
-    private String messageWhenConstructorNull = "Horses cannot be null.";
-    private String messageWhenHorsesEmpty = "Horses cannot be empty.";
-
     @Mock
     Hippodrome hippodrome;
 
@@ -28,6 +23,7 @@ public class HippodromeTest {
 
     @Test
     public void exceptionMessage() {
+        String messageWhenConstructorNull = "Horses cannot be null.";
         when(hippodrome.getHorses() == null).thenThrow(new IllegalArgumentException(messageWhenConstructorNull));
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             new Hippodrome(null);
@@ -44,6 +40,7 @@ public class HippodromeTest {
 
     @Test
     public void messageWhenEmptyList() {
+        String messageWhenHorsesEmpty = "Horses cannot be empty.";
         when(hippodrome.getHorses().isEmpty()).thenThrow(new IllegalArgumentException(messageWhenHorsesEmpty));
         Exception exception = assertThrows(IllegalArgumentException.class, () ->
                 new Hippodrome(new ArrayList<Horse>(0)));
@@ -68,16 +65,15 @@ public class HippodromeTest {
         for (int i = 0; i < 30; i++) {
             Horse horse = Mockito.mock(Horse.class);
             hippodrome.getHorses().add(horse);
+            hippodrome.move();
         }
         for (int i = 0; i < hippodrome.getHorses().size(); i++) {
-            hippodrome.getHorses().get(i).move();
             verify(hippodrome.getHorses().get(i)).move();
         }
     }
 
     @Test
     public void testGetWinner() {
-        double max = 0;
         List<Horse> horses = new ArrayList<>();
         var kolia = new Horse("kolia", 200);
         Horse vasia = new Horse("vasia", 100);
