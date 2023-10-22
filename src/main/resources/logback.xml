@@ -1,0 +1,22 @@
+<configuration>
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/hippodrome.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/hippodrome.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory> <!-- Зберігати логи протягом 7 днів -->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+        </encoder>
+        <DefaultRolloverStrategy>
+            <Delete>
+            <IfFileName glob="*.hippodrome.*.log"/>
+            <IfLastModified age="P7D"/>
+        </Delete>
+    </DefaultRolloverStrategy>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="ROLLING_FILE" />
+    </root>
+</configuration>
