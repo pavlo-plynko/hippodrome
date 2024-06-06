@@ -16,6 +16,7 @@ public class Horse {
             throw new IllegalArgumentException("Speed cannot be negative.");
         }
         //
+
         if (distance < 0) {
             throw new IllegalArgumentException("Distance cannot be negative.");
         }
