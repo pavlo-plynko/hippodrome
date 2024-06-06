@@ -1,0 +1,10 @@
+2024-06-07 00:08:08.556 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Bucephalus, швидкість 2.4
+2024-06-07 00:08:08.566 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Ace of Spades, швидкість 2.5
+2024-06-07 00:08:08.567 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Zephyr, швидкість 2.6
+2024-06-07 00:08:08.567 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Blaze, швидкість 2.7
+2024-06-07 00:08:08.567 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Lobster, швидкість 2.8
+2024-06-07 00:08:08.568 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Pegasus, швидкість 2.9
+2024-06-07 00:08:08.569 DEBUG [main] [Horse.<init>(Horse.java:35)] - створення Horse, ім'я Cherry, швидкість 3.0
+2024-06-07 00:08:08.572 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:26)] - створення Hippodrome, коней 7
+2024-06-07 00:08:08.573 INFO [main] [Main.main(Main.java:24)] - Початок стрибків. Кількість учасників: 7
+2024-06-07 00:08:29.087 INFO [main] [Main.main(Main.java:34)] - Закінчення стрибків. Переможець: Cherry
