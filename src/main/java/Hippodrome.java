@@ -1,4 +1,4 @@
-import java.time.LocalDateTime;
+\import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.Comparator;
@@ -31,11 +31,14 @@ public class Hippodrome {
         return Collections.unmodifiableList(horses);
     }
 
+
     public void move() {
         horses.forEach(Horse::move);
     }
 
     public Horse getWinner() {
+
+
         return horses.stream()
                 .max(Comparator.comparing(Horse::getDistance))
                 .get();
