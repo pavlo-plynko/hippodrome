@@ -1,0 +1,865 @@
+12:17:28.006 [main] INFO  Main - Application started
+14:12:35.502 [main] INFO  Main - Application started
+14:17:04.281 [main] ERROR Horse - Attempted to create horse with blank name
+14:17:08.308 [main] ERROR Horse - Attempted to create horse with blank name
+14:17:14.509 [main] ERROR Horse - Attempted to create horse with blank name
+14:34:24.143 [main] ERROR Horse - Attempted to create horse with null name
+14:34:24.153 [main] ERROR Horse - Attempted to create blank name
+14:34:57.384 [main] ERROR Horse - Attempted to create horse with null name
+14:34:57.397 [main] ERROR Horse - Attempted to create horse with blank name
+14:04:08.947 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.003 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.020 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.030 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.041 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.051 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.060 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.071 [main] ERROR Horse - Attempted to create horse with null name
+14:04:09.081 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.554 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.603 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.628 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.640 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.652 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.661 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.670 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.679 [main] ERROR Horse - Attempted to create horse with null name
+14:05:38.685 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.043 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.093 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.109 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.116 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.124 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.134 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.141 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.146 [main] ERROR Horse - Attempted to create horse with null name
+14:05:58.152 [main] ERROR Horse - Attempted to create horse with null name
+14:06:22.233 [main] ERROR Horse - Attempted to create horse with null name
+14:06:22.281 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.290 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.293 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.296 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.301 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.307 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.312 [main] ERROR Horse - Attempted to create horse with blank name
+14:06:22.316 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.657 [main] ERROR Horse - Attempted to create horse with null name
+14:41:45.705 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.712 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.714 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.718 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.723 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.726 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.730 [main] ERROR Horse - Attempted to create horse with blank name
+14:41:45.732 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.744 [main] ERROR Horse - Attempted to create horse with null name
+14:48:46.795 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.802 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.807 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.809 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.813 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.818 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.822 [main] ERROR Horse - Attempted to create horse with blank name
+14:48:46.826 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.876 [main] ERROR Horse - Attempted to create horse with null name
+14:52:11.977 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.980 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.984 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.987 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.990 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.995 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:11.999 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:12.002 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.329 [main] ERROR Horse - Attempted to create horse with null name
+14:52:26.408 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.411 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.414 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.417 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.421 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.424 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.426 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:26.429 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.653 [main] ERROR Horse - Attempted to create horse with null name
+14:52:37.744 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.747 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.750 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.755 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.757 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.760 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.762 [main] ERROR Horse - Attempted to create horse with blank name
+14:52:37.764 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.282 [main] ERROR Horse - Attempted to create horse with null name
+14:53:05.371 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.373 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.377 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.379 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.382 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.384 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.387 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:05.390 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.662 [main] ERROR Horse - Attempted to create horse with null name
+14:53:15.743 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.746 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.749 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.753 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.757 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.760 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.764 [main] ERROR Horse - Attempted to create horse with blank name
+14:53:15.767 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:14.936 [main] ERROR Horse - Attempted to create horse with null name
+14:58:14.992 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.000 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.003 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.007 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.012 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.016 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.019 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:15.021 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.639 [main] ERROR Horse - Attempted to create horse with null name
+14:58:25.688 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.696 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.699 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.703 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.707 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.712 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.716 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:25.720 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.906 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.917 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.920 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.924 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.929 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.932 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.937 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.943 [main] ERROR Horse - Attempted to create horse with blank name
+15:03:26.948 [main] ERROR Horse - Attempted to create horse with null name
+15:04:11.860 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.870 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.874 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.877 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.880 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.883 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.885 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.888 [main] ERROR Horse - Attempted to create horse with blank name
+15:04:11.892 [main] ERROR Horse - Attempted to create horse with null name
+10:59:34.561 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.572 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.576 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.580 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.584 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.587 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.590 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.594 [main] ERROR Horse - Attempted to create horse with blank name
+10:59:34.601 [main] ERROR Horse - Attempted to create horse with null name
+11:08:21.267 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.280 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.282 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.285 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.290 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.293 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.297 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.302 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:21.310 [main] ERROR Horse - Attempted to create horse with null name
+11:08:45.685 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.695 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.698 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.700 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.703 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.706 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.712 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.716 [main] ERROR Horse - Attempted to create horse with blank name
+11:08:45.722 [main] ERROR Horse - Attempted to create horse with null name
+11:10:17.067 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.089 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.092 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.096 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.100 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.106 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.110 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.114 [main] ERROR Horse - Attempted to create horse with blank name
+11:10:17.121 [main] ERROR Horse - Attempted to create horse with null name
+11:30:03.879 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.898 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.902 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.911 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.920 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.928 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.935 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.939 [main] ERROR Horse - Attempted to create horse with blank name
+11:30:03.946 [main] ERROR Horse - Attempted to create horse with null name
+11:32:03.231 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.242 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.245 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.249 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.251 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.253 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.255 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.257 [main] ERROR Horse - Attempted to create horse with blank name
+11:32:03.261 [main] ERROR Horse - Attempted to create horse with null name
+13:00:22.441 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.451 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.454 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.457 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.460 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.463 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.467 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.471 [main] ERROR Horse - Attempted to create horse with blank name
+13:00:22.477 [main] ERROR Horse - Attempted to create horse with null name
+13:03:01.375 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.387 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.390 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.394 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.397 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.401 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.404 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.408 [main] ERROR Horse - Attempted to create horse with blank name
+13:03:01.414 [main] ERROR Horse - Attempted to create horse with null name
+13:04:36.154 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.167 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.171 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.174 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.177 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.180 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.183 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.187 [main] ERROR Horse - Attempted to create horse with blank name
+13:04:36.192 [main] ERROR Horse - Attempted to create horse with null name
+13:05:40.484 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.497 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.499 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.503 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.507 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.510 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.514 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.518 [main] ERROR Horse - Attempted to create horse with blank name
+13:05:40.524 [main] ERROR Horse - Attempted to create horse with null name
+13:06:26.114 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.123 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.126 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.130 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.134 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.136 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.139 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.142 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:26.148 [main] ERROR Horse - Attempted to create horse with null name
+13:06:42.396 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.406 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.410 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.413 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.417 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.420 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.426 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.429 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:42.434 [main] ERROR Horse - Attempted to create horse with null name
+13:06:50.583 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.595 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.597 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.600 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.602 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.604 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.606 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.608 [main] ERROR Horse - Attempted to create horse with blank name
+13:06:50.612 [main] ERROR Horse - Attempted to create horse with null name
+13:08:26.174 [main] ERROR Horse - Attempted to create horse with null name
+13:08:31.433 [main] ERROR Horse - Attempted to create horse with null name
+13:08:45.146 [main] ERROR Horse - Attempted to create horse with null name
+13:08:55.406 [main] ERROR Horse - Attempted to create horse with null name
+13:09:00.902 [main] ERROR Horse - Attempted to create horse with null name
+13:09:16.288 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.299 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.302 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.306 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.310 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.313 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.316 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.319 [main] ERROR Horse - Attempted to create horse with blank name
+13:09:16.324 [main] ERROR Horse - Attempted to create horse with null name
+13:11:49.988 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:49.998 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.000 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.003 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.005 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.007 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.010 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.012 [main] ERROR Horse - Attempted to create horse with blank name
+13:11:50.016 [main] ERROR Horse - Attempted to create horse with null name
+13:12:32.985 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.000 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.004 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.007 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.011 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.013 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.017 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.020 [main] ERROR Horse - Attempted to create horse with blank name
+13:12:33.027 [main] ERROR Horse - Attempted to create horse with null name
+13:14:09.641 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.651 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.655 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.659 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.662 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.664 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.666 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.668 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:09.671 [main] ERROR Horse - Attempted to create horse with null name
+13:14:25.999 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.008 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.011 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.013 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.016 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.018 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.020 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.023 [main] ERROR Horse - Attempted to create horse with blank name
+13:14:26.026 [main] ERROR Horse - Attempted to create horse with null name
+13:17:34.505 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.516 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.520 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.523 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.527 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.529 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.531 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.534 [main] ERROR Horse - Attempted to create horse with blank name
+13:17:34.538 [main] ERROR Horse - Attempted to create horse with null name
+13:21:45.785 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.794 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.797 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.800 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.803 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.805 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.807 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.809 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:45.815 [main] ERROR Horse - Attempted to create horse with null name
+13:21:59.022 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.030 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.032 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.034 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.037 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.040 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.042 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.045 [main] ERROR Horse - Attempted to create horse with blank name
+13:21:59.049 [main] ERROR Horse - Attempted to create horse with null name
+13:22:18.949 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.962 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.965 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.968 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.970 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.976 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.979 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.984 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:18.989 [main] ERROR Horse - Attempted to create horse with null name
+13:22:27.517 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.527 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.531 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.534 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.537 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.540 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.543 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.547 [main] ERROR Horse - Attempted to create horse with blank name
+13:22:27.552 [main] ERROR Horse - Attempted to create horse with null name
+13:23:57.759 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.771 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.773 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.776 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.778 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.782 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.785 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.789 [main] ERROR Horse - Attempted to create horse with blank name
+13:23:57.794 [main] ERROR Horse - Attempted to create horse with null name
+13:24:07.006 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.017 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.021 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.023 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.026 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.028 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.030 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.032 [main] ERROR Horse - Attempted to create horse with blank name
+13:24:07.036 [main] ERROR Horse - Attempted to create horse with null name
+13:50:27.762 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.774 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.776 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.779 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.783 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.786 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.789 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.791 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:27.795 [main] ERROR Horse - Attempted to create horse with null name
+13:50:37.374 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.392 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.397 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.401 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.409 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.412 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.415 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.419 [main] ERROR Horse - Attempted to create horse with blank name
+13:50:37.425 [main] ERROR Horse - Attempted to create horse with null name
+13:55:01.677 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.692 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.697 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.703 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.710 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.714 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.717 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.721 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:01.726 [main] ERROR Horse - Attempted to create horse with null name
+13:55:12.593 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.614 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.619 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.625 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.631 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.637 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.642 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.647 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:12.657 [main] ERROR Horse - Attempted to create horse with null name
+13:55:25.725 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.736 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.739 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.742 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.746 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.749 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.753 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.755 [main] ERROR Horse - Attempted to create horse with blank name
+13:55:25.759 [main] ERROR Horse - Attempted to create horse with null name
+13:56:26.952 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.960 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.962 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.963 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.966 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.968 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.970 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.974 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:26.980 [main] ERROR Horse - Attempted to create horse with null name
+13:56:52.178 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.186 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.188 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.191 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.193 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.196 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.197 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.199 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:52.202 [main] ERROR Horse - Attempted to create horse with null name
+13:56:57.277 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.290 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.296 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.301 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.306 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.310 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.313 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.316 [main] ERROR Horse - Attempted to create horse with blank name
+13:56:57.321 [main] ERROR Horse - Attempted to create horse with null name
+13:57:06.740 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.750 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.752 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.754 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.756 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.758 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.764 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.766 [main] ERROR Horse - Attempted to create horse with blank name
+13:57:06.770 [main] ERROR Horse - Attempted to create horse with null name
+14:01:19.653 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.664 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.666 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.669 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.673 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.676 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.678 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.680 [main] ERROR Horse - Attempted to create horse with blank name
+14:01:19.684 [main] ERROR Horse - Attempted to create horse with null name
+14:54:38.276 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.286 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.288 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.290 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.292 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.293 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.296 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.298 [main] ERROR Horse - Attempted to create horse with blank name
+14:54:38.301 [main] ERROR Horse - Attempted to create horse with null name
+14:55:46.413 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.424 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.427 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.429 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.433 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.435 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.436 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.438 [main] ERROR Horse - Attempted to create horse with blank name
+14:55:46.442 [main] ERROR Horse - Attempted to create horse with null name
+14:58:45.771 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.780 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.784 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.787 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.791 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.794 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.796 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.798 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:45.801 [main] ERROR Horse - Attempted to create horse with null name
+14:58:58.771 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.791 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.798 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.802 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.807 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.811 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.814 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.817 [main] ERROR Horse - Attempted to create horse with blank name
+14:58:58.825 [main] ERROR Horse - Attempted to create horse with null name
+16:02:29.812 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.827 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.831 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.834 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.839 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.842 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.844 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.847 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:29.853 [main] ERROR Horse - Attempted to create horse with null name
+16:02:49.134 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.144 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.147 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.151 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.154 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.157 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.159 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.161 [main] ERROR Horse - Attempted to create horse with blank name
+16:02:49.165 [main] ERROR Horse - Attempted to create horse with null name
+16:06:41.445 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.455 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.458 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.461 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.464 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.467 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.469 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.472 [main] ERROR Horse - Attempted to create horse with blank name
+16:06:41.476 [main] ERROR Horse - Attempted to create horse with null name
+16:10:32.706 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.720 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.724 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.728 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.736 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.741 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.746 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.748 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:32.753 [main] ERROR Horse - Attempted to create horse with null name
+16:10:59.015 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.025 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.029 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.032 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.034 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.037 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.040 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.042 [main] ERROR Horse - Attempted to create horse with blank name
+16:10:59.047 [main] ERROR Horse - Attempted to create horse with null name
+16:11:06.339 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.350 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.352 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.354 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.356 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.358 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.360 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.363 [main] ERROR Horse - Attempted to create horse with blank name
+16:11:06.368 [main] ERROR Horse - Attempted to create horse with null name
+16:13:58.086 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.098 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.103 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.107 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.111 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.114 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.117 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.119 [main] ERROR Horse - Attempted to create horse with blank name
+16:13:58.123 [main] ERROR Horse - Attempted to create horse with null name
+16:14:09.071 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.082 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.085 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.087 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.090 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.094 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.096 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.099 [main] ERROR Horse - Attempted to create horse with blank name
+16:14:09.102 [main] ERROR Horse - Attempted to create horse with null name
+16:15:29.512 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.523 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.527 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.531 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.535 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.539 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.542 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.544 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:29.548 [main] ERROR Horse - Attempted to create horse with null name
+16:15:43.079 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.096 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.100 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.103 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.110 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.113 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.115 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.119 [main] ERROR Horse - Attempted to create horse with blank name
+16:15:43.124 [main] ERROR Horse - Attempted to create horse with null name
+16:16:01.145 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.156 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.158 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.161 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.163 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.165 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.167 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.168 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:01.172 [main] ERROR Horse - Attempted to create horse with null name
+16:16:45.010 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.024 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.026 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.028 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.030 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.034 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.037 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.040 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:45.046 [main] ERROR Horse - Attempted to create horse with null name
+16:16:54.856 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.869 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.873 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.876 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.879 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.881 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.883 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.885 [main] ERROR Horse - Attempted to create horse with blank name
+16:16:54.890 [main] ERROR Horse - Attempted to create horse with null name
+16:17:50.895 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.906 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.908 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.910 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.912 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.915 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.917 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.920 [main] ERROR Horse - Attempted to create horse with blank name
+16:17:50.926 [main] ERROR Horse - Attempted to create horse with null name
+16:18:03.430 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.439 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.441 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.443 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.446 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.449 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.451 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.453 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:03.456 [main] ERROR Horse - Attempted to create horse with null name
+16:18:23.629 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.641 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.644 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.646 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.652 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.656 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.658 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.660 [main] ERROR Horse - Attempted to create horse with blank name
+16:18:23.664 [main] ERROR Horse - Attempted to create horse with null name
+16:34:08.803 [main] INFO  Main - Application started
+16:34:29.143 [main] INFO  Main - Application ended
+16:34:40.286 [main] INFO  Main - Application started
+16:35:00.603 [main] INFO  Main - Application ended
+16:35:09.232 [main] INFO  Main - Application started
+16:36:37.021 [main] INFO  Main - Application started
+16:36:57.323 [main] INFO  Main - Application ended
+16:45:50.477 [main] INFO  Main - Application started
+16:45:50.491 [main] INFO  Main - %d, INFO Main: Початок стрибків. Кількість учасників:%d
+16:46:06.912 [main] INFO  Main - Application started
+16:46:06.934 [main] INFO  Main - 2024-06-02 16:46:06,930, INFO Main: Початок стрибків. Кількість учасників:7
+16:46:36.193 [main] INFO  Main - 2024-06-02 16:46:36,188, INFO Main: Початок стрибків. Кількість учасників:7
+16:47:51.837 [main] INFO  Main - 2024-06-02 16:47:51,824, INFO Main: Початок стрибків. Кількість учасників:7
+16:48:12.190 [main] INFO  Main - 2024-06-02 16:47:51,824, INFO Main: Закінчення стрибків. Переможець:Horse@7c24b813
+16:49:20.164 [main] INFO  Main - 2024-06-02 16:49:20,159, INFO Main: Початок стрибків. Кількість учасників:7
+16:49:40.591 [main] INFO  Main - 2024-06-02 16:49:40,590, INFO Main: Закінчення стрибків. Переможець:Cherry
+16:51:53.098 [main] INFO  Main - 2024-06-02 16:51:53,087, INFO Main: Початок стрибків. Кількість учасників:7
+16:52:13.488 [main] INFO  Main - 2024-06-02 16:52:13,488, INFO Main: Закінчення стрибків. Переможець:Cherry
+16:54:54.500 [main] INFO  Main - 2024-06-02 16:54:54,488, INFO Main: Початок стрибків. Кількість учасників: 7
+16:55:14.878 [main] INFO  Main - 2024-06-02 16:55:14,878, INFO Main: Закінчення стрибків. Переможець:Cherry
+17:02:46.199 [main] ERROR Hippodrome - 2024-06-02 17:02:46,195 ERROR Hippodrome: Horses list is null
+17:03:18.830 [main] ERROR Hippodrome - 2024-06-02 17:03:18,827 ERROR Hippodrome: Horses list is null
+17:03:24.975 [main] ERROR Hippodrome - 2024-06-02 17:03:24,965 ERROR Hippodrome: Horses list is null
+17:04:06.975 [main] ERROR Hippodrome - 2024-06-02 17:04:06,956 ERROR Hippodrome: Horses list is null
+17:04:43.908 [main] ERROR Hippodrome - 2024-06-02 17:04:43,899 ERROR Hippodrome: Horses list is null
+17:05:45.814 [main] ERROR Hippodrome - 2024-06-02 17:05:45,809 ERROR Hippodrome: Horses list is empty
+17:05:45.826 [main] ERROR Hippodrome - 2024-06-02 17:05:45,826 ERROR Hippodrome: Horses list is null
+17:05:57.618 [main] ERROR Hippodrome - 2024-06-02 17:05:57,610 ERROR Hippodrome: Horses list is empty
+17:05:57.631 [main] ERROR Hippodrome - 2024-06-02 17:05:57,631 ERROR Hippodrome: Horses list is null
+17:07:03.394 [main] ERROR Hippodrome - 2024-06-02 17:07:03,388 ERROR Hippodrome: Horses list is empty
+17:07:03.405 [main] ERROR Hippodrome - 2024-06-02 17:07:03,405 ERROR Hippodrome: Horses list is null
+17:07:03.408 [main] INFO  Hippodrome - 2024-06-02 17:07:03,408 DEBUG Hippodrome: створення Hippodrome, коней [30]
+17:07:03.411 [main] INFO  Hippodrome - 2024-06-02 17:07:03,410 DEBUG Hippodrome: створення Hippodrome, коней [3]
+17:07:04.198 [main] INFO  Hippodrome - 2024-06-02 17:07:04,198 DEBUG Hippodrome: створення Hippodrome, коней [50]
+17:07:59.133 [main] ERROR Hippodrome - 2024-06-02 17:07:59,127 ERROR Hippodrome: Horses list is empty
+17:07:59.150 [main] ERROR Hippodrome - 2024-06-02 17:07:59,149 ERROR Hippodrome: Horses list is null
+17:07:59.154 [main] INFO  Hippodrome - 2024-06-02 17:07:59,154 DEBUG Hippodrome: створення Hippodrome, коней [30]
+17:07:59.158 [main] INFO  Hippodrome - 2024-06-02 17:07:59,157 DEBUG Hippodrome: створення Hippodrome, коней [3]
+17:07:59.981 [main] INFO  Hippodrome - 2024-06-02 17:07:59,981 DEBUG Hippodrome: створення Hippodrome, коней [50]
+17:08:06.184 [main] ERROR Hippodrome - 2024-06-02 17:08:06,178 ERROR Hippodrome: Horses list is empty
+17:08:06.197 [main] ERROR Hippodrome - 2024-06-02 17:08:06,197 ERROR Hippodrome: Horses list is null
+17:08:06.201 [main] INFO  Hippodrome - 2024-06-02 17:08:06,201 DEBUG Hippodrome: створення Hippodrome, коней [30]
+17:08:06.203 [main] INFO  Hippodrome - 2024-06-02 17:08:06,203 DEBUG Hippodrome: створення Hippodrome, коней [3]
+17:08:13.562 [main] INFO  Hippodrome - 2024-06-02 17:08:13,557 DEBUG Hippodrome: створення Hippodrome, коней [7]
+17:08:13.565 [main] INFO  Main - 2024-06-02 17:08:13,565, INFO Main: Початок стрибків. Кількість учасників: 7
+17:08:33.886 [main] INFO  Main - 2024-06-02 17:08:33,886, INFO Main: Закінчення стрибків. Переможець:Cherry
+17:18:59.502 [main] DEBUG Hippodrome - 2024-06-02 17:18:59,497 DEBUG Hippodrome: створення Hippodrome, коней [7]
+17:18:59.507 [main] INFO  Main - 2024-06-02 17:18:59,507, INFO Main: Початок стрибків. Кількість учасників: 7
+17:19:09.554 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.571 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.577 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.582 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.587 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.594 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.600 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.603 [main] ERROR Horse - Attempted to create horse with blank name
+17:19:09.613 [main] ERROR Horse - 2024-06-02 17:19:09,610 ERROR Horse: Name is null
+23:57:03.720 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.738 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.745 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.752 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.759 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.765 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.772 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.779 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:03.804 [main] ERROR Horse - 2024-06-02 23:57:03,793 ERROR Horse: Name is null
+23:57:41.458 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.468 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.472 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.476 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.480 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.483 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.486 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.489 [main] ERROR Horse - Attempted to create horse with blank name
+23:57:41.496 [main] ERROR Horse - 2024-06-02 23:57:41,494 ERROR Horse: Name is null
+16:12:33.489 [main] INFO  Horse - 2024-06-06 16:12:33,484 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:33.502 [main] INFO  Horse - 2024-06-06 16:12:33,502 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:12:33.507 [main] ERROR Horse - 2024-06-06 16:12:33,507 ERROR Horse: Speed is negative
+16:12:33.510 [main] INFO  Horse - 2024-06-06 16:12:33,509 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:33.550 [main] ERROR Horse - 2024-06-06 16:12:33,549 ERROR Horse: Name is blank
+16:12:33.555 [main] ERROR Horse - 2024-06-06 16:12:33,555 ERROR Horse: Name is blank
+16:12:33.557 [main] ERROR Horse - 2024-06-06 16:12:33,557 ERROR Horse: Name is blank
+16:12:33.560 [main] ERROR Horse - 2024-06-06 16:12:33,560 ERROR Horse: Name is blank
+16:12:33.563 [main] ERROR Horse - 2024-06-06 16:12:33,562 ERROR Horse: Name is blank
+16:12:33.565 [main] ERROR Horse - 2024-06-06 16:12:33,565 ERROR Horse: Name is blank
+16:12:33.568 [main] ERROR Horse - 2024-06-06 16:12:33,568 ERROR Horse: Name is blank
+16:12:33.573 [main] ERROR Horse - 2024-06-06 16:12:33,572 ERROR Horse: Name is blank
+16:12:33.577 [main] INFO  Horse - 2024-06-06 16:12:33,576 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:12:33.579 [main] ERROR Horse - 2024-06-06 16:12:33,579 ERROR Horse: Name is null
+16:12:33.581 [main] ERROR Horse - 2024-06-06 16:12:33,581 ERROR Horse: Distance is negative
+16:12:34.580 [main] INFO  Horse - 2024-06-06 16:12:34,579 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:34.598 [main] INFO  Horse - 2024-06-06 16:12:34,598 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:34.603 [main] INFO  Horse - 2024-06-06 16:12:34,603 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:12:54.732 [main] INFO  Horse - 2024-06-06 16:12:54,727 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:54.749 [main] INFO  Horse - 2024-06-06 16:12:54,748 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:12:54.755 [main] ERROR Horse - 2024-06-06 16:12:54,755 ERROR Horse: Speed is negative
+16:12:54.758 [main] INFO  Horse - 2024-06-06 16:12:54,758 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:54.804 [main] ERROR Horse - 2024-06-06 16:12:54,804 ERROR Horse: Name is blank
+16:12:54.813 [main] ERROR Horse - 2024-06-06 16:12:54,812 ERROR Horse: Name is blank
+16:12:54.817 [main] ERROR Horse - 2024-06-06 16:12:54,817 ERROR Horse: Name is blank
+16:12:54.821 [main] ERROR Horse - 2024-06-06 16:12:54,821 ERROR Horse: Name is blank
+16:12:54.826 [main] ERROR Horse - 2024-06-06 16:12:54,826 ERROR Horse: Name is blank
+16:12:54.830 [main] ERROR Horse - 2024-06-06 16:12:54,830 ERROR Horse: Name is blank
+16:12:54.834 [main] ERROR Horse - 2024-06-06 16:12:54,834 ERROR Horse: Name is blank
+16:12:54.839 [main] ERROR Horse - 2024-06-06 16:12:54,839 ERROR Horse: Name is blank
+16:12:54.845 [main] INFO  Horse - 2024-06-06 16:12:54,844 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:12:54.849 [main] ERROR Horse - 2024-06-06 16:12:54,849 ERROR Horse: Name is null
+16:12:54.852 [main] ERROR Horse - 2024-06-06 16:12:54,852 ERROR Horse: Distance is negative
+16:12:55.661 [main] INFO  Horse - 2024-06-06 16:12:55,660 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:55.678 [main] INFO  Horse - 2024-06-06 16:12:55,678 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:12:55.683 [main] INFO  Horse - 2024-06-06 16:12:55,683 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:13:14.625 [main] INFO  Horse - 2024-06-06 16:13:14,620 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:14.640 [main] INFO  Horse - 2024-06-06 16:13:14,640 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:13:14.646 [main] ERROR Horse - 2024-06-06 16:13:14,646 ERROR Horse: Speed is negative
+16:13:14.650 [main] INFO  Horse - 2024-06-06 16:13:14,650 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:14.741 [main] ERROR Horse - 2024-06-06 16:13:14,741 ERROR Horse: Name is blank
+16:13:14.755 [main] ERROR Horse - 2024-06-06 16:13:14,755 ERROR Horse: Name is blank
+16:13:14.761 [main] ERROR Horse - 2024-06-06 16:13:14,760 ERROR Horse: Name is blank
+16:13:14.769 [main] ERROR Horse - 2024-06-06 16:13:14,769 ERROR Horse: Name is blank
+16:13:14.778 [main] ERROR Horse - 2024-06-06 16:13:14,778 ERROR Horse: Name is blank
+16:13:14.787 [main] ERROR Horse - 2024-06-06 16:13:14,787 ERROR Horse: Name is blank
+16:13:14.792 [main] ERROR Horse - 2024-06-06 16:13:14,792 ERROR Horse: Name is blank
+16:13:14.796 [main] ERROR Horse - 2024-06-06 16:13:14,796 ERROR Horse: Name is blank
+16:13:14.802 [main] INFO  Horse - 2024-06-06 16:13:14,802 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:13:14.807 [main] ERROR Horse - 2024-06-06 16:13:14,807 ERROR Horse: Name is null
+16:13:14.813 [main] ERROR Horse - 2024-06-06 16:13:14,813 ERROR Horse: Distance is negative
+16:13:15.684 [main] INFO  Horse - 2024-06-06 16:13:15,684 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:15.702 [main] INFO  Horse - 2024-06-06 16:13:15,702 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:15.707 [main] INFO  Horse - 2024-06-06 16:13:15,707 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:13:46.260 [main] INFO  Horse - 2024-06-06 16:13:46,254 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:46.279 [main] INFO  Horse - 2024-06-06 16:13:46,279 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:13:46.287 [main] ERROR Horse - 2024-06-06 16:13:46,286 ERROR Horse: Speed is negative
+16:13:46.292 [main] INFO  Horse - 2024-06-06 16:13:46,292 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:46.366 [main] ERROR Horse - 2024-06-06 16:13:46,366 ERROR Horse: Name is blank
+16:13:46.374 [main] ERROR Horse - 2024-06-06 16:13:46,374 ERROR Horse: Name is blank
+16:13:46.379 [main] ERROR Horse - 2024-06-06 16:13:46,378 ERROR Horse: Name is blank
+16:13:46.388 [main] ERROR Horse - 2024-06-06 16:13:46,388 ERROR Horse: Name is blank
+16:13:46.394 [main] ERROR Horse - 2024-06-06 16:13:46,394 ERROR Horse: Name is blank
+16:13:46.400 [main] ERROR Horse - 2024-06-06 16:13:46,400 ERROR Horse: Name is blank
+16:13:46.403 [main] ERROR Horse - 2024-06-06 16:13:46,403 ERROR Horse: Name is blank
+16:13:46.408 [main] ERROR Horse - 2024-06-06 16:13:46,407 ERROR Horse: Name is blank
+16:13:46.411 [main] INFO  Horse - 2024-06-06 16:13:46,410 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:13:46.413 [main] ERROR Horse - 2024-06-06 16:13:46,413 ERROR Horse: Name is null
+16:13:46.417 [main] ERROR Horse - 2024-06-06 16:13:46,417 ERROR Horse: Distance is negative
+16:13:47.231 [main] INFO  Horse - 2024-06-06 16:13:47,231 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:47.248 [main] INFO  Horse - 2024-06-06 16:13:47,248 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:47.253 [main] INFO  Horse - 2024-06-06 16:13:47,253 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:13:55.375 [main] INFO  Horse - 2024-06-06 16:13:55,364 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:55.395 [main] INFO  Horse - 2024-06-06 16:13:55,395 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:13:55.401 [main] ERROR Horse - 2024-06-06 16:13:55,401 ERROR Horse: Speed is negative
+16:13:55.404 [main] INFO  Horse - 2024-06-06 16:13:55,403 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:55.452 [main] ERROR Horse - 2024-06-06 16:13:55,452 ERROR Horse: Name is blank
+16:13:55.464 [main] ERROR Horse - 2024-06-06 16:13:55,464 ERROR Horse: Name is blank
+16:13:55.468 [main] ERROR Horse - 2024-06-06 16:13:55,467 ERROR Horse: Name is blank
+16:13:55.473 [main] ERROR Horse - 2024-06-06 16:13:55,473 ERROR Horse: Name is blank
+16:13:55.477 [main] ERROR Horse - 2024-06-06 16:13:55,477 ERROR Horse: Name is blank
+16:13:55.481 [main] ERROR Horse - 2024-06-06 16:13:55,481 ERROR Horse: Name is blank
+16:13:55.484 [main] ERROR Horse - 2024-06-06 16:13:55,483 ERROR Horse: Name is blank
+16:13:55.485 [main] ERROR Horse - 2024-06-06 16:13:55,485 ERROR Horse: Name is blank
+16:13:55.489 [main] INFO  Horse - 2024-06-06 16:13:55,489 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:13:55.492 [main] ERROR Horse - 2024-06-06 16:13:55,492 ERROR Horse: Name is null
+16:13:55.495 [main] ERROR Horse - 2024-06-06 16:13:55,495 ERROR Horse: Distance is negative
+16:13:56.768 [main] INFO  Horse - 2024-06-06 16:13:56,767 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:56.782 [main] INFO  Horse - 2024-06-06 16:13:56,782 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:13:56.788 [main] INFO  Horse - 2024-06-06 16:13:56,788 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:14:23.631 [main] INFO  Horse - 2024-06-06 16:14:23,626 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:23.645 [main] INFO  Horse - 2024-06-06 16:14:23,644 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:14:23.648 [main] ERROR Horse - 2024-06-06 16:14:23,648 ERROR Horse: Speed is negative
+16:14:23.650 [main] INFO  Horse - 2024-06-06 16:14:23,650 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:23.694 [main] ERROR Horse - 2024-06-06 16:14:23,693 ERROR Horse: Name is blank
+16:14:23.701 [main] ERROR Horse - 2024-06-06 16:14:23,701 ERROR Horse: Name is blank
+16:14:23.704 [main] ERROR Horse - 2024-06-06 16:14:23,704 ERROR Horse: Name is blank
+16:14:23.707 [main] ERROR Horse - 2024-06-06 16:14:23,707 ERROR Horse: Name is blank
+16:14:23.712 [main] ERROR Horse - 2024-06-06 16:14:23,712 ERROR Horse: Name is blank
+16:14:23.715 [main] ERROR Horse - 2024-06-06 16:14:23,715 ERROR Horse: Name is blank
+16:14:23.719 [main] ERROR Horse - 2024-06-06 16:14:23,719 ERROR Horse: Name is blank
+16:14:23.723 [main] ERROR Horse - 2024-06-06 16:14:23,723 ERROR Horse: Name is blank
+16:14:23.726 [main] INFO  Horse - 2024-06-06 16:14:23,726 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:14:23.729 [main] ERROR Horse - 2024-06-06 16:14:23,729 ERROR Horse: Name is null
+16:14:23.732 [main] ERROR Horse - 2024-06-06 16:14:23,732 ERROR Horse: Distance is negative
+16:14:24.566 [main] INFO  Horse - 2024-06-06 16:14:24,566 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:24.587 [main] INFO  Horse - 2024-06-06 16:14:24,587 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:24.594 [main] INFO  Horse - 2024-06-06 16:14:24,594 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:14:36.110 [main] INFO  Horse - 2024-06-06 16:14:36,088 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:36.143 [main] INFO  Horse - 2024-06-06 16:14:36,143 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 5.0
+16:14:36.151 [main] ERROR Horse - 2024-06-06 16:14:36,151 ERROR Horse: Speed is negative
+16:14:36.155 [main] INFO  Horse - 2024-06-06 16:14:36,155 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:36.219 [main] ERROR Horse - 2024-06-06 16:14:36,219 ERROR Horse: Name is blank
+16:14:36.226 [main] ERROR Horse - 2024-06-06 16:14:36,226 ERROR Horse: Name is blank
+16:14:36.229 [main] ERROR Horse - 2024-06-06 16:14:36,229 ERROR Horse: Name is blank
+16:14:36.232 [main] ERROR Horse - 2024-06-06 16:14:36,232 ERROR Horse: Name is blank
+16:14:36.237 [main] ERROR Horse - 2024-06-06 16:14:36,236 ERROR Horse: Name is blank
+16:14:36.240 [main] ERROR Horse - 2024-06-06 16:14:36,240 ERROR Horse: Name is blank
+16:14:36.243 [main] ERROR Horse - 2024-06-06 16:14:36,243 ERROR Horse: Name is blank
+16:14:36.247 [main] ERROR Horse - 2024-06-06 16:14:36,247 ERROR Horse: Name is blank
+16:14:36.250 [main] INFO  Horse - 2024-06-06 16:14:36,250 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.2
+16:14:36.254 [main] ERROR Horse - 2024-06-06 16:14:36,253 ERROR Horse: Name is null
+16:14:36.256 [main] ERROR Horse - 2024-06-06 16:14:36,256 ERROR Horse: Distance is negative
+16:14:37.726 [main] INFO  Horse - 2024-06-06 16:14:37,725 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:37.741 [main] INFO  Horse - 2024-06-06 16:14:37,741 DEBUG Horse: створення Horse, ім'я Horse, швидкість 5.0
+16:14:37.746 [main] INFO  Horse - 2024-06-06 16:14:37,746 DEBUG Horse: створення Horse, ім'я Horse, швидкість 7.0
+16:14:57.862 [main] INFO  Horse - 2024-06-06 16:14:57,857 DEBUG Horse: створення Horse, ім'я Bucephalus, швидкість 2.4
+16:14:57.865 [main] INFO  Horse - 2024-06-06 16:14:57,864 DEBUG Horse: створення Horse, ім'я Ace of Spades, швидкість 2.5
+16:14:57.865 [main] INFO  Horse - 2024-06-06 16:14:57,865 DEBUG Horse: створення Horse, ім'я Zephyr, швидкість 2.6
+16:14:57.865 [main] INFO  Horse - 2024-06-06 16:14:57,865 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 2.7
+16:14:57.865 [main] INFO  Horse - 2024-06-06 16:14:57,865 DEBUG Horse: створення Horse, ім'я Lobster, швидкість 2.8
+16:14:57.866 [main] INFO  Horse - 2024-06-06 16:14:57,866 DEBUG Horse: створення Horse, ім'я Pegasus, швидкість 2.9
+16:14:57.866 [main] INFO  Horse - 2024-06-06 16:14:57,866 DEBUG Horse: створення Horse, ім'я Cherry, швидкість 3.0
+16:14:57.867 [main] DEBUG Hippodrome - 2024-06-06 16:14:57,867 DEBUG Hippodrome: створення Hippodrome, коней [7]
+16:14:57.868 [main] INFO  Main - 2024-06-06 16:14:57,868, INFO Main: Початок стрибків. Кількість учасників: 7
+16:15:18.215 [main] INFO  Main - 2024-06-06 16:15:18,215, INFO Main: Закінчення стрибків. Переможець:Cherry
+16:15:28.886 [main] INFO  Horse - 2024-06-06 16:15:28,874 DEBUG Horse: створення Horse, ім'я Bucephalus, швидкість 2.4
+16:15:28.890 [main] INFO  Horse - 2024-06-06 16:15:28,890 DEBUG Horse: створення Horse, ім'я Ace of Spades, швидкість 2.5
+16:15:28.891 [main] INFO  Horse - 2024-06-06 16:15:28,891 DEBUG Horse: створення Horse, ім'я Zephyr, швидкість 2.6
+16:15:28.891 [main] INFO  Horse - 2024-06-06 16:15:28,891 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 2.7
+16:15:28.891 [main] INFO  Horse - 2024-06-06 16:15:28,891 DEBUG Horse: створення Horse, ім'я Lobster, швидкість 2.8
+16:15:28.892 [main] INFO  Horse - 2024-06-06 16:15:28,892 DEBUG Horse: створення Horse, ім'я Pegasus, швидкість 2.9
+16:15:28.892 [main] INFO  Horse - 2024-06-06 16:15:28,892 DEBUG Horse: створення Horse, ім'я Cherry, швидкість 3.0
+16:15:28.894 [main] DEBUG Hippodrome - 2024-06-06 16:15:28,894 DEBUG Hippodrome: створення Hippodrome, коней [7]
+16:15:28.894 [main] INFO  Main - 2024-06-06 16:15:28,894, INFO Main: Початок стрибків. Кількість учасників: 7
+16:15:49.211 [main] INFO  Main - 2024-06-06 16:15:49,210, INFO Main: Закінчення стрибків. Переможець:Cherry

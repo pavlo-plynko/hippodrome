@@ -1,0 +1,30 @@
+19:15:36.621 [main] INFO  Horse - 2024-06-10 19:15:36,604 DEBUG Horse: створення Horse, ім'я Bucephalus, швидкість 2.4
+19:15:36.624 [main] INFO  Horse - 2024-06-10 19:15:36,624 DEBUG Horse: створення Horse, ім'я Ace of Spades, швидкість 2.5
+19:15:36.624 [main] INFO  Horse - 2024-06-10 19:15:36,624 DEBUG Horse: створення Horse, ім'я Zephyr, швидкість 2.6
+19:15:36.624 [main] INFO  Horse - 2024-06-10 19:15:36,624 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 2.7
+19:15:36.624 [main] INFO  Horse - 2024-06-10 19:15:36,624 DEBUG Horse: створення Horse, ім'я Lobster, швидкість 2.8
+19:15:36.625 [main] INFO  Horse - 2024-06-10 19:15:36,625 DEBUG Horse: створення Horse, ім'я Pegasus, швидкість 2.9
+19:15:36.626 [main] INFO  Horse - 2024-06-10 19:15:36,626 DEBUG Horse: створення Horse, ім'я Cherry, швидкість 3.0
+19:15:36.627 [main] DEBUG Hippodrome - 2024-06-10 19:15:36,627 DEBUG Hippodrome: створення Hippodrome, коней [7]
+19:15:36.627 [main] INFO  Main - 2024-06-10 19:15:36,627, INFO Main: Початок стрибків. Кількість учасників: 7
+19:15:57.017 [main] INFO  Main - 2024-06-10 19:15:57,016, INFO Main: Закінчення стрибків. Переможець:Pegasus
+19:17:00.807 [main] INFO  Horse - 2024-06-10 19:17:00,800 DEBUG Horse: створення Horse, ім'я Bucephalus, швидкість 2.4
+19:17:00.810 [main] INFO  Horse - 2024-06-10 19:17:00,810 DEBUG Horse: створення Horse, ім'я Ace of Spades, швидкість 2.5
+19:17:00.810 [main] INFO  Horse - 2024-06-10 19:17:00,810 DEBUG Horse: створення Horse, ім'я Zephyr, швидкість 2.6
+19:17:00.810 [main] INFO  Horse - 2024-06-10 19:17:00,810 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 2.7
+19:17:00.811 [main] INFO  Horse - 2024-06-10 19:17:00,811 DEBUG Horse: створення Horse, ім'я Lobster, швидкість 2.8
+19:17:00.811 [main] INFO  Horse - 2024-06-10 19:17:00,811 DEBUG Horse: створення Horse, ім'я Pegasus, швидкість 2.9
+19:17:00.811 [main] INFO  Horse - 2024-06-10 19:17:00,811 DEBUG Horse: створення Horse, ім'я Cherry, швидкість 3.0
+19:17:00.812 [main] DEBUG Hippodrome - 2024-06-10 19:17:00,812 DEBUG Hippodrome: створення Hippodrome, коней [7]
+19:17:00.812 [main] INFO  Main - 2024-06-10 19:17:00,812, INFO Main: Початок стрибків. Кількість учасників: 7
+19:17:21.130 [main] INFO  Main - 2024-06-10 19:17:21,130, INFO Main: Закінчення стрибків. Переможець:Cherry
+19:18:18.470 [main] INFO  Horse - 2024-06-10 19:18:18,465 DEBUG Horse: створення Horse, ім'я Bucephalus, швидкість 2.4
+19:18:18.473 [main] INFO  Horse - 2024-06-10 19:18:18,473 DEBUG Horse: створення Horse, ім'я Ace of Spades, швидкість 2.5
+19:18:18.473 [main] INFO  Horse - 2024-06-10 19:18:18,473 DEBUG Horse: створення Horse, ім'я Zephyr, швидкість 2.6
+19:18:18.473 [main] INFO  Horse - 2024-06-10 19:18:18,473 DEBUG Horse: створення Horse, ім'я Blaze, швидкість 2.7
+19:18:18.474 [main] INFO  Horse - 2024-06-10 19:18:18,473 DEBUG Horse: створення Horse, ім'я Lobster, швидкість 2.8
+19:18:18.474 [main] INFO  Horse - 2024-06-10 19:18:18,474 DEBUG Horse: створення Horse, ім'я Pegasus, швидкість 2.9
+19:18:18.474 [main] INFO  Horse - 2024-06-10 19:18:18,474 DEBUG Horse: створення Horse, ім'я Cherry, швидкість 3.0
+19:18:18.475 [main] DEBUG Hippodrome - 2024-06-10 19:18:18,475 DEBUG Hippodrome: створення Hippodrome, коней [7]
+19:18:18.475 [main] INFO  Main - 2024-06-10 19:18:18,475, INFO Main: Початок стрибків. Кількість учасників: 7
+19:18:38.793 [main] INFO  Main - 2024-06-10 19:18:38,793, INFO Main: Закінчення стрибків. Переможець:Pegasus
