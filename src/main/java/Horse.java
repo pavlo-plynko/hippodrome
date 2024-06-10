@@ -34,6 +34,7 @@ public class Horse {
         this.name = name;
         this.speed = speed;
         this.distance = distance;
+
         logger.info("{} DEBUG Horse: створення Horse, ім'я {}, швидкість {}", formattedDateTime, this.name, this.speed);
     }
 
