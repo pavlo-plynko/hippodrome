@@ -1,3 +1,4 @@
+
 import static java.util.Objects.isNull;
 
 public class Horse {
@@ -48,3 +49,5 @@ public class Horse {
         return (Math.random() * (max - min)) + min;
     }
 }
+
+
