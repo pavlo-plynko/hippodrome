@@ -1,0 +1,18 @@
+19:50:34.153 [main] DEBUG Hippodrome -- Creation of a hippodrome: 30
+19:50:34.172 [main] ERROR Hippodrome -- Horses list is empty
+19:50:34.178 [main] DEBUG Hippodrome -- Creation of a hippodrome: 3
+19:50:34.186 [main] ERROR Hippodrome -- Horses list is null
+19:50:36.086 [main] DEBUG Hippodrome -- Creation of a hippodrome: 50
+19:50:36.440 [main] ERROR Horse -- Speed is negative
+19:50:36.475 [main] ERROR Horse -- Distance is negative
+19:50:36.482 [main] ERROR Horse -- Name is null
+19:50:36.739 [main] ERROR Horse -- Name is blank
+19:50:36.743 [main] ERROR Horse -- Name is blank
+19:50:36.746 [main] ERROR Horse -- Name is blank
+19:50:36.750 [main] ERROR Horse -- Name is blank
+19:50:36.754 [main] ERROR Horse -- Name is blank
+19:50:36.757 [main] ERROR Horse -- Name is blank
+19:50:36.761 [main] ERROR Horse -- Name is blank
+19:51:22.083 [main] DEBUG Hippodrome -- Creation of a hippodrome: 7
+19:51:22.103 [main] INFO  Main -- Start of the race. Number of participants: 7
+19:51:42.988 [main] INFO  Main -- End of the race. Winner: Cherry 
